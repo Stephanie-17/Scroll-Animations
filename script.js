@@ -17,10 +17,7 @@ function checkBoxes() {
         triggerHeight = height / 1.34; 
     }
     
-    boxes.forEach(box => {
-        const boxTop = box.getBoundingClientRect().top;
-    const triggerHeight =  window.innerHeight*0.50;
-     document.body.clientHeight; 
+   
 
     boxes.forEach(box=>{
         const boxTop = box.getBoundingClientRect().top
