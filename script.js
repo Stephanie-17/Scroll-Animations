@@ -19,6 +19,11 @@ function checkBoxes() {
     
     boxes.forEach(box => {
         const boxTop = box.getBoundingClientRect().top;
+    const triggerHeight =  window.innerHeight*0.50;
+     document.body.clientHeight; 
+
+    boxes.forEach(box=>{
+        const boxTop = box.getBoundingClientRect().top
         
         if (boxTop < triggerHeight) {
             box.classList.add('show');
