@@ -17,10 +17,8 @@ function checkBoxes() {
         triggerHeight = height / 1.34; 
     }
     
-   
-
-    boxes.forEach(box=>{
-        const boxTop = box.getBoundingClientRect().top
+    boxes.forEach(box => {
+        const boxTop = box.getBoundingClientRect().top;
         
         if (boxTop < triggerHeight) {
             box.classList.add('show');
